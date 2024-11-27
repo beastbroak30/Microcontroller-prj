@@ -19,6 +19,7 @@ This repository consists of projects based on the following microcontroller boar
 - **Raspberry Pi Pico**
 - **ESP32**
 - **Wemos D1 Mini**
+- **NODEMCU ESP8266**
 - **Raspberry Pi Zero 2W**
 - **Arduino Nano**
 
