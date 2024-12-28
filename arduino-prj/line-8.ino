@@ -1,6 +1,3 @@
-//Author : Shanu Dey
-//  https://github.com/ShanuDey
-// website : www.techreboot.tk
 
 /* Define motor controll inputs */
 const int motorRPin1 = 2; // signal pin 1 for the right motor, connect to IN1               
