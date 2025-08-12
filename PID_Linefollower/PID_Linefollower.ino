@@ -1,5 +1,5 @@
 /*
- * Competition-Level PID Line Follower Robot
+ *
  * 
  * Hardware:
  * - Arduino Nano
@@ -7,8 +7,6 @@
  * - L298N motor driver
  * - 2x N20 geared motors
  * 
- * Author: Manus AI
- * Date: 2025
  * 
  * This code implements a high-performance PID-based line follower
  * optimized for international competition standards with advanced
