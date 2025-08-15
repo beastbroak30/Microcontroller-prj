@@ -25,7 +25,7 @@ This repository consists of projects based on the following microcontroller boar
 
 ## 🖥️ Programming Language
 
-All projects in this repository are primarily developed in **C++**. Separate repositories will be maintained for projects using **MicroPython**.
+All projects in this repository are primarily developed in **C++**. Separate repositories will be maintained for projects using **MicroPython**/ **RPI**
 
 ## 📁 Project Structure
 
