@@ -6,9 +6,7 @@
  * - RLS-08 8-sensor array (TCRT5000 based)
  * - L298N motor driver
  * - 2x N20 geared motors
- * 
- * Author: Manus AI
- * Date: 2025
+
  * 
  * This code implements a high-performance PID-based line follower
  * optimized for international competition standards with advanced
