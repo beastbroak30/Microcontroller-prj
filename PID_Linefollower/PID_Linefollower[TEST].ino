@@ -8,15 +8,15 @@
 #define IN3 6    // Motor B direction 1
 #define IN4 7    // Motor B direction 2
 
-// 8-channel IR sensor array pin definitions
-#define SENSOR1 A0  // Leftmost sensor
+// 8-channel IR sensor array pin definitions (reversed for IR1 = rightmost)
+#define SENSOR1 A0  // Rightmost sensor
 #define SENSOR2 A1
 #define SENSOR3 A2
 #define SENSOR4 A3
 #define SENSOR5 A4
 #define SENSOR6 A5
 #define SENSOR7 A6
-#define SENSOR8 A7
+#define SENSOR8 A7  // Leftmost sensor
 
 // Motor control variables
 const int offsetA = 1;    // Motor A direction offset
@@ -87,14 +87,14 @@ void loop() {
 
   while (1) {
     // Sharp turns based on outermost sensors (105mm span, 15mm spacing)
-    if (analogRead(SENSOR1) > threshold[1] && analogRead(SENSOR8) < threshold[8]) {
+    if (analogRead(SENSOR8) > threshold[8] && analogRead(SENSOR1) < threshold[1]) {
       lsp = 0;
       rsp = lfspeed;
       motorDrive(1, lsp, offsetA);
       motorDrive(2, rsp, offsetB);
       Serial.println("Sharp left turn");
     }
-    else if (analogRead(SENSOR8) > threshold[8] && analogRead(SENSOR1) < threshold[1]) {
+    else if (analogRead(SENSOR1) > threshold[1] && analogRead(SENSOR8) < threshold[8]) {
       lsp = lfspeed;
       rsp = 0;
       motorDrive(1, lsp, offsetA);
@@ -102,9 +102,6 @@ void loop() {
       Serial.println("Sharp right turn");
     }
     else if (analogRead(SENSOR4) > threshold[4] || analogRead(SENSOR5) > threshold[5]) {
-      // Optional dynamic PID (commented out for fixed tuning)
-      // Kp = 0.0006 * (1000 - (analogRead(SENSOR4) + analogRead(SENSOR5)) / 2);
-      // Kd = 10 * Kp;
       linefollow();
     }
     // Debug output every 100ms
@@ -122,7 +119,7 @@ void loop() {
 void linefollow() {
   // Error calculation using weighted sensor readings
   int sensors[] = {SENSOR1, SENSOR2, SENSOR3, SENSOR4, SENSOR5, SENSOR6, SENSOR7, SENSOR8};
-  int weights[] = {-7, -5, -3, -1, 1, 3, 5, 7}; // Weights for 8 sensors
+  int weights[] = {7, 5, 3, 1, -1, -3, -5, -7}; // Reversed weights for SENSOR1 = rightmost
   int sum = 0, weightedSum = 0;
   for (int i = 0; i < 8; i++) {
     int value = analogRead(sensors[i]);
