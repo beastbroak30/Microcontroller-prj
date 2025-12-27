@@ -39,7 +39,7 @@ Whether you're a beginner learning embedded systems or an advanced developer bui
 
 ## ✨ Features
 
-- 🏆 **Competition-Ready Code**: Optimized algorithms for robotics competitions (IIT and international standards)
+- 🏆 **Competition-Ready Code**: Optimized algorithms for robotics competitions (IIT - Indian Institute of Technology, and international standards)
 - 🎛️ **PID Control Implementation**: Advanced tuning for precise motor control and line following
 - 🧭 **Maze Solving Algorithms**: Left-hand rule, right-hand rule, and shortest path optimization
 - 📡 **Wireless Control**: RF-based remote control systems for RC vehicles
@@ -612,7 +612,7 @@ If you find this repository helpful, please consider giving it a ⭐ star! It he
 - **Total Projects**: 40+ Arduino/microcontroller projects
 - **Main Categories**: 6 major project categories
 - **Boards Supported**: 6 different microcontroller platforms
-- **Competition Ready**: Multiple IIT and international competition-grade robots
+- **Competition Ready**: Multiple IIT (Indian Institute of Technology) and international competition-grade robots
 
 ---
 
