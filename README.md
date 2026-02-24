@@ -1,4 +1,4 @@
-# 🤖 Microcontroller Project Repository by Beastbroak30
+#  Microcontroller Project Repository by Beastbroak30
 <!-- Replace with your image link or upload your own banner -->
 
 *A comprehensive collection of advanced microcontroller-based robotics and IoT projects built with passion, precision, and competitive-grade performance.*
@@ -7,7 +7,7 @@
 [![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=Arduino&logoColor=white)](https://www.arduino.cc/)
 [![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
 
-## 📚 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Boards Used](#boards-used)
@@ -31,22 +31,22 @@
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 This repository is a curated collection of **microcontroller-based projects** focused on robotics, automation, and IoT applications. The projects range from basic line-following robots to advanced competition-grade robots with PID control, maze-solving capabilities, RF-controlled vehicles, and sensor integration systems.
 
 Whether you're a beginner learning embedded systems or an advanced developer building competition robots, this repository provides production-ready code, comprehensive documentation, and practical implementations for various microcontroller platforms.
 
-## ✨ Features
+##  Features
 
-- 🏆 **Competition-Ready Code**: Optimized algorithms for robotics competitions (IIT - Indian Institute of Technology, and international standards)
-- 🎛️ **PID Control Implementation**: Advanced tuning for precise motor control and line following
-- 🧭 **Maze Solving Algorithms**: Left-hand rule, right-hand rule, and shortest path optimization
-- 📡 **Wireless Control**: RF-based remote control systems for RC vehicles
-- 🌡️ **IoT Integration**: Temperature/humidity monitoring with LCD displays (ESP8266 + DHT11)
-- 🤖 **Obstacle Avoidance**: Ultrasonic sensor-based autonomous navigation
-- 📷 **Camera Integration**: ESP32-CAM projects for image capture
-- 🎮 **Interactive Projects**: Chrome Dino game implementation on microcontrollers
+-  **Competition-Ready Code**: Optimized algorithms for robotics competitions (IIT - Indian Institute of Technology, and international standards)
+-  **PID Control Implementation**: Advanced tuning for precise motor control and line following
+-  **Maze Solving Algorithms**: Left-hand rule, right-hand rule, and shortest path optimization
+-  **Wireless Control**: RF-based remote control systems for RC vehicles
+-  **IoT Integration**: Temperature/humidity monitoring with LCD displays (ESP8266 + DHT11)
+-  **Obstacle Avoidance**: Ultrasonic sensor-based autonomous navigation
+-  **Camera Integration**: ESP32-CAM projects for image capture
+-  **Interactive Projects**: Chrome Dino game implementation on microcontrollers
 
 ## 🛠️ Boards Used
 
@@ -60,7 +60,7 @@ This repository consists of projects based on the following microcontroller boar
 | **Raspberry Pi Pico** | Fast processing, multiple PWM channels | Future projects |
 | **Raspberry Pi Zero 2W** | Linux-based robotics, computer vision | Advanced applications |
 
-## 🖥️ Programming Language
+##  Programming Language
 
 All projects in this repository are primarily developed in **C++** using the Arduino IDE framework. The code is compatible with:
 - Arduino IDE (v1.8.x or v2.x)
@@ -69,7 +69,7 @@ All projects in this repository are primarily developed in **C++** using the Ard
 
 **Note**: Separate repositories will be maintained for projects using **MicroPython** and **Raspberry Pi** (Python).
 
-## 🔧 Hardware Requirements
+## Hardware Requirements
 
 ### Common Components Used Across Projects:
 
@@ -107,7 +107,7 @@ All projects in this repository are primarily developed in **C++** using the Ard
 - Jumper wires and breadboards
 - Perfboards for permanent circuits
 
-## 💻 Software Requirements
+##  Software Requirements
 
 ### Development Environment
 ```
@@ -175,7 +175,7 @@ Each project directory typically contains:
 - **Documentation**: Markdown files with setup guides (where available)
 - **Resources**: PDF guides, schematics, and layouts (for advanced projects)
 
-## 🚀 Projects Overview
+##  Projects Overview
 
 ### 1. Line Follower Projects
 **Directory**: `Line_follower/`
@@ -465,7 +465,7 @@ float Kd = 1.0;
 
 ---
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues and Solutions
 
@@ -504,7 +504,7 @@ float Kd = 1.0;
 
 ---
 
-## 🤝 Contribution Guidelines
+##  Contribution Guidelines
 
 We welcome contributions from the community! Here's how you can help:
 
@@ -548,12 +548,12 @@ We welcome contributions from the community! Here's how you can help:
 
 ### Contribution Ideas
 
-- 📝 **Documentation**: Improve README, add tutorials, create circuit diagrams
-- 🐛 **Bug Fixes**: Fix issues, improve error handling
-- ✨ **New Features**: Add new projects, sensors, or algorithms
-- 🔧 **Optimization**: Improve PID tuning, optimize algorithms
-- 🧪 **Testing**: Add test sketches, validation scripts
-- 📊 **Examples**: Provide more usage examples and templates
+-  **Documentation**: Improve README, add tutorials, create circuit diagrams
+-  **Bug Fixes**: Fix issues, improve error handling
+-  **New Features**: Add new projects, sensors, or algorithms
+-  **Optimization**: Improve PID tuning, optimize algorithms
+-  **Testing**: Add test sketches, validation scripts
+-  **Examples**: Provide more usage examples and templates
 
 ### Code Standards
 
@@ -568,7 +568,7 @@ Please follow the coding standards and best practices mentioned in [CONTRIBUTING
 
 ---
 
-## 💬 Support
+##  Support
 
 Need help or have questions?
 
@@ -585,7 +585,7 @@ Need help or have questions?
 
 ---
 
-## 📜 License
+## License
 
 This repository is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more information.
 
