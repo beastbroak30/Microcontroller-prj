@@ -601,9 +601,9 @@ This repository is licensed under the **MIT License**. See the [LICENSE](LICENSE
 
 ---
 
-## 🌟 Star This Repository
+##  Star This Repository
 
-If you find this repository helpful, please consider giving it a ⭐ star! It helps others discover these projects.
+If you find this repository helpful, please consider giving it a  star! It helps others discover these projects.
 
 ---
 
