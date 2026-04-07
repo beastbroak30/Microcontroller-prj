@@ -150,7 +150,7 @@ Install these libraries through Arduino IDE Library Manager or manually:
 # - LiquidCrystal I2C by Frank de Brabander
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 The repository is organized into the following main directories:
 
@@ -368,7 +368,7 @@ esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 E
 
 ---
 
-## 🚦 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -607,7 +607,7 @@ If you find this repository helpful, please consider giving it a  star! It helps
 
 ---
 
-## 📊 Repository Stats
+## Repository Stats
 
 - **Total Projects**: 40+ Arduino/microcontroller projects
 - **Main Categories**: 6 major project categories
@@ -616,6 +616,6 @@ If you find this repository helpful, please consider giving it a  star! It helps
 
 ---
 
-**Happy Building! 🤖⚡**
+**Happy Building! 🤖**
 
 *Built with ❤️ by Beastbroak30*
